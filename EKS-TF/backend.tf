@@ -2,7 +2,7 @@ terraform {
   backend "s3" {
     bucket         = "ybdatastore"
     region         = "us-east-1"
-    key            = "EKS-DevSecOps-Tetris-Project/EKS-TF/terraform.tfstate"
+    key            = "Reddit-Project/EKS-TF/terraform.tfstate"
     #dynamodb_table = "Lock-Files"
     #encrypt        = true
   }
